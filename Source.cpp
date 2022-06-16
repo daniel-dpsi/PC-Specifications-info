@@ -176,7 +176,8 @@ int _tmain(int argc, _TCHAR* argv[])
     pEnumerator->Release();
 
     int x;
-    cin >> x;
+    cout << "Press any key to exit the program.";
+    cin >> x; // stops the program from exiting right away (press any key to exit).
 
 
 }
